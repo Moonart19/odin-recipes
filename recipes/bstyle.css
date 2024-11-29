@@ -1,0 +1,20 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#topic{
+    color: orange;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
+
+.sub-head{
+    background-color: orange;
+}
+
+ul,ol{
+    color: purple;
+}
