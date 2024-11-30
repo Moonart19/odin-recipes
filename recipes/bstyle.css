@@ -1,20 +1,33 @@
 body{
     font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
 }
 
 #topic{
-    color: orange;
+    color: rgb(180, 40, 40);
+    background-color: rgb(235, 207, 171);
+    padding: 8px 15px;
+    text-align: center;
 }
 
-img{
-    width: 400px;
-    height: auto;
+.img-container img{
+    display: block;
+    margin: 8px auto;
+
 }
 
 .sub-head{
     background-color: orange;
+    text-align: center;
 }
 
 ul,ol{
     color: purple;
+}
+
+.container{
+    width: 700px;
+    margin: 12px auto;
+    background-color: #fff;
+    padding: 8px;
 }
