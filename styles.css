@@ -1,11 +1,29 @@
+/* *{
+    border: 2px solid black;
+} */
+
 body{
     font-family: 'Courier New', Courier, monospace;
 }
 
 #topic{
-    text-align: center;
+    background-color: cornsilk;
+    
 }
 
-.list-size{
+.list{
     font-size: 25px;
+    list-style: none;
+}
+
+.list li{
+    margin: 5px 0;
+}
+.container{
+    background-color: aliceblue;
+    margin: 8px auto;
+    padding: 12px;
+    border: 2px dotted black;
+    text-align: center;
+    width: 800px;
 }
