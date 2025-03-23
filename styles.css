@@ -19,6 +19,7 @@ body{
 .list li{
     margin: 5px 0;
 }
+
 .container{
     background-color: aliceblue;
     margin: 8px auto;
@@ -26,4 +27,12 @@ body{
     border: 2px dotted black;
     text-align: center;
     width: 800px;
+}
+
+.spin {
+    transition: font-size 0.05s;
+}
+
+.spin:hover {
+    font-size: 1.5em;
 }
